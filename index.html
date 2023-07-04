@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 20px;
+            max-width: 1200px;
+        }
+        @media(max-width: 640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 10px;
+        }
+        .all{
+            background: #E7EBCC;
+            background: -moz-linear-gradient(-45deg, #E7EBCC 0%, #EDFFF3 100%, #A8929C 100%);
+            background: -webkit-linear-gradient(-45deg, #E7EBCC 0%, #EDFFF3 100%, #A8929C 100%);
+            background: linear-gradient(135deg, #E7EBCC 0%, #EDFFF3 100%, #A8929C 100%);
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            flex: 1;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        li{
+            list-style: none;
+            margin: 10px;
+        }
+        p{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        button{
+            border: none;
+            text-align: center;
+            background: #EB7618;
+            background: -moz-linear-gradient(-45deg, #EB7618 0%, #FF4739 100%, #A82101 100%);
+            background: -webkit-linear-gradient(-45deg, #EB7618 0%, #FF4739 100%, #A82101 100%);
+            background: linear-gradient(135deg, #EB7618 0%, #FF4739 100%, #A82101 100%);
+            color: rgb(249, 246, 246); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(135deg, rgb(235, 118, 24) 0%, rgb(255, 71, 57) 100%, rgb(168, 33, 1) 100%); border: 2px solid rgb(28, 110, 164); display: inline-block;}
+            .myButton:hover {
+            background: #EB7618; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="all">
+            <h3>Basic</h3>
+            <p>11.99/month</p>
+            <ul>
+                <li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="all">
+            <h3>Starndard</h3>
+            <p>19.99/month</p>
+            <ul>
+                <li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="all">
+            <h3>Premium</h3>
+            <p>49.99/month</p>
+            <ul>
+                <li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
